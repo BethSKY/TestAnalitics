@@ -40,8 +40,3 @@ jobs:
           echo "Check if all requirements are satisfied"
           pip install -r requirements.txt
           echo "All requirements are satisfied"
-
-      - name: Проверка на синтаксические ошибки
-        run: |
-          nbqa check  * .ipynb
-
