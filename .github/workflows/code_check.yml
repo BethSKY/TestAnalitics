@@ -43,6 +43,5 @@ jobs:
 
       - name: Проверка на синтаксические ошибки
         run: |
-          pip install nbqa
           nbqa check  * .ipynb
 
